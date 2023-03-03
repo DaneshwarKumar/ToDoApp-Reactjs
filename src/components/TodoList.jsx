@@ -1,5 +1,6 @@
 import React from "react";
 
+// rendering add the to do list items 
 const TodoList = ({ todos, handleDelete, handleEdit }) => {
   return (
     <ul className="allTodos">
